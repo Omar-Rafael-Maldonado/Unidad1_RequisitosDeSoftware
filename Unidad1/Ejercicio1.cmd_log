@@ -1,0 +1,16 @@
+xst -intstyle ise -ifn "C:/Users/omara/OneDrive/Documents/Unidad1Requisitos/Unidad1/Ejercicio1.xst" -ofn "C:/Users/omara/OneDrive/Documents/Unidad1Requisitos/Unidad1/Ejercicio1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 Ejercicio1.ngc Ejercicio1.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Ejercicio1_map.ncd Ejercicio1.ngd Ejercicio1.pcf 
+par -w -intstyle ise -ol high -mt off Ejercicio1_map.ncd Ejercicio1.ncd Ejercicio1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Ejercicio1.twx Ejercicio1.ncd -o Ejercicio1.twr Ejercicio1.pcf 
+xst -intstyle ise -ifn "C:/Users/omara/OneDrive/Documents/Unidad1Requisitos/Unidad1/Ejercicio1.xst" -ofn "C:/Users/omara/OneDrive/Documents/Unidad1Requisitos/Unidad1/Ejercicio1.syr" 
+xst -intstyle ise -ifn "C:/Users/omara/OneDrive/Documents/Unidad1Requisitos/Unidad1/Ejercicio1.xst" -ofn "C:/Users/omara/OneDrive/Documents/Unidad1Requisitos/Unidad1/Ejercicio1.syr" 
+xst -intstyle ise -ifn "C:/Users/omara/OneDrive/Documents/Unidad1Requisitos/Unidad1/Ejercicio1.xst" -ofn "C:/Users/omara/OneDrive/Documents/Unidad1Requisitos/Unidad1/Ejercicio1.syr" 
+xst -intstyle ise -ifn "C:/Users/omara/OneDrive/Documents/Unidad1Requisitos/Unidad1/Ejercicio1.xst" -ofn "C:/Users/omara/OneDrive/Documents/Unidad1Requisitos/Unidad1/Ejercicio1.syr" 
+xst -intstyle ise -ifn "C:/Users/omara/OneDrive/Documents/Unidad1Requisitos/Unidad1/Ejercicio1.xst" -ofn "C:/Users/omara/OneDrive/Documents/Unidad1Requisitos/Unidad1/Ejercicio1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 Ejercicio1.ngc Ejercicio1.ngd  
+xst -intstyle ise -ifn "C:/Users/omara/OneDrive/Documents/Unidad1Requisitos/Unidad1/Ejercicio1.xst" -ofn "C:/Users/omara/OneDrive/Documents/Unidad1Requisitos/Unidad1/Ejercicio1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 Ejercicio1.ngc Ejercicio1.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Ejercicio1_map.ncd Ejercicio1.ngd Ejercicio1.pcf 
+par -w -intstyle ise -ol high -mt off Ejercicio1_map.ncd Ejercicio1.ncd Ejercicio1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Ejercicio1.twx Ejercicio1.ncd -o Ejercicio1.twr Ejercicio1.pcf 
